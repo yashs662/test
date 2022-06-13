@@ -1,4 +1,5 @@
-﻿function Invoke-Vulmap {
+﻿[console]::bufferwidth = 32766
+ function Invoke-Vulmap {
 
     [CmdletBinding()]
     Param(
